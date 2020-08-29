@@ -1,14 +1,14 @@
-# дебильный калькулятор v1 
+# -*- coding: utf-8 -*-
 what = input("Что хочешь сделать? (+,-):")
 
- a = float( input("Введи первое число ") )
- b = float( input("Введи второе число ") )
+a = float( input("Введи первое число ") )
+b = float( input("Введи второе число ") )
 
- if what == "+":
+if what == "+":
  	c = a + b 
  	print("Результат: " + str())
- elif what == "-":
+elif what == "-":
  	c = a - b 
  	print("Результат: " + c)
- else:
+  else:
  	print("Выбрана неверная операция!")
